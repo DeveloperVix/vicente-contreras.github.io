@@ -1,78 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - Vicente Contreras</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .email-container {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 25px 0;
+    }
+    #realEmail {
+      font-size: 1.3em;
+      font-weight: bold;
+      word-break: break-all;
+    }
+    #copyBtn {
+      margin-top: 15px;
+    }
+    #copyAlert {
+      display: none;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
 <!-- Contact Section -->
-<section id="contact">
+<section id="contact" class="py-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Contact Me</h2>
+        <h2 class="mb-4">Contact Me</h2>
         <hr class="star-primary">
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p>You can contact me directly by email:</p>
+        <p class="lead">You can contact me directly by email:</p>
         
-        <!-- Email visible con protección anti-spam -->
-        <div style="margin: 20px 0; font-size: 1.3em; background: #f8f9fa; padding: 15px; border-radius: 5px;">
-          <strong id="realEmailDisplay">ingvicentecontreras<span style="display:none">no-valid</span>@<span style="display:none">ignore</span>gmail.com</strong>
+        <!-- Email con protección anti-spam -->
+        <div class="email-container">
+          <span id="realEmail">ingvicentecontreras<span style="display:none">anti-spam</span>@<span style="display:none">no-spam</span>gmail.com</span>
         </div>
 
-        <!-- Botones de acción -->
-        <div class="btn-group" style="margin-top: 15px;">
-          <button id="copyBtn" class="btn btn-primary btn-lg">
-            <i class="fa fa-copy"></i> Copy email
-          </button>
-        </div>
+        <!-- Solo botón de copiar -->
+        <button id="copyBtn" class="btn btn-primary btn-lg">
+          <i class="fas fa-copy"></i> Copy email
+        </button>
 
-        <!-- Mensaje de confirmación (oculto inicialmente) -->
-        <div id="copyAlert" style="display: none; margin-top: 15px;">
-          <div class="alert alert-success" role="alert">
-            <i class="fa fa-check"></i> Email copied to clipboard!
-          </div>
+        <!-- Mensaje de confirmación -->
+        <div id="copyAlert" class="alert alert-success mt-3" role="alert">
+          <i class="fas fa-check-circle"></i> Email copied to clipboard!
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Bootstrap JS + Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <!-- Script de funcionalidad -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Extraer el email real eliminando los spans de protección
-  const emailElement = document.getElementById('realEmailDisplay');
+  // Extraer y limpiar el email real
+  const emailElement = document.getElementById('realEmail');
   const realEmail = emailElement.textContent
-    .replace(/no-valid/g, '')
-    .replace(/ignore/g, '')
+    .replace(/anti-spam/g, '')
+    .replace(/no-spam/g, '')
     .replace(/\s+/g, '')
     .trim();
 
-  // 1. Botón para abrir cliente de correo (100% funcional)
-  document.getElementById('mailtoBtn').addEventListener('click', function(e) {
-    e.preventDefault();
-    // Método compatible con todos los navegadores
-    window.location = 'mailto:' + realEmail;
+  // Botón de copiado
+  document.getElementById('copyBtn').addEventListener('click', function() {
+    // Método moderno (funciona en la mayoría de navegadores)
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(realEmail).then(function() {
+        showCopyAlert();
+      }).catch(function() {
+        fallbackCopyMethod(realEmail);
+      });
+    } else {
+      // Fallback para navegadores antiguos
+      fallbackCopyMethod(realEmail);
+    }
   });
 
-  // 2. Botón para copiar email
-  document.getElementById('copyBtn').addEventListener('click', function() {
-    navigator.clipboard.writeText(realEmail).then(function() {
-      // Mostrar confirmación
-      const alert = document.getElementById('copyAlert');
-      alert.style.display = 'block';
-      setTimeout(function() {
-        alert.style.display = 'none';
-      }, 3000);
-      
-    }).catch(function() {
-      // Fallback para navegadores antiguos
-      const tempInput = document.createElement('input');
-      tempInput.value = realEmail;
-      document.body.appendChild(tempInput);
-      tempInput.select();
-      document.execCommand('copy');
-      document.body.removeChild(tempInput);
-      
-      alert("Email copiado manualmente");
-    });
-  });
+  function showCopyAlert() {
+    const alert = document.getElementById('copyAlert');
+    alert.style.display = 'block';
+    setTimeout(function() {
+      alert.style.display = 'none';
+    }, 3000);
+  }
+
+  function fallbackCopyMethod(email) {
+    const tempInput = document.createElement('input');
+    tempInput.value = email;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    showCopyAlert();
+  }
 });
 </script>
+
+</body>
+</html>
