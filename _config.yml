@@ -1,6 +1,6 @@
 # Site settings
 title: Vicente Contreras
-email: ingvicentecontreras@gmail.com
+email: https://formspree.io/f/mwpqwqde
 url: https://github.com/DeveloperVix/vicente-contreras.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Vicente Contreras Lopez
   location: Location
   social: Around the Web
   credits: Credits
@@ -40,15 +40,11 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/DeveloperVix
+  - title: linkedin
+    url: https://www.linkedin.com/in/vicente-contreras-lopez-06452487
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/DeveloperVix
 
 # Postal address (add as many lines as necessary)
 address:
