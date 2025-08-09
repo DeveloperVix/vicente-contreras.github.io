@@ -9,13 +9,55 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p>Si deseas contactarme, puedes enviarme un correo electrónico:</p>
-        <a href="mailto:ingvicentecontreras@gmail.com" 
-           class="btn btn-success btn-lg" 
-           style="margin-top: 20px;">
-          <i class="fa fa-envelope"></i> Enviar correo
+        <p>Puedes contactarme directamente por correo electrónico:</p>
+        
+        <!-- Email visible con protección básica contra spam -->
+        <div class="email-container" style="margin: 25px 0;">
+          <span class="email-address" style="font-size: 1.2em; font-weight: bold;">
+            ingvicentecontreras<span style="display:none">-anti-spam-</span>@<span style="display:none">no-spam</span>gmail.com
+          </span>
+          <button id="copyEmailBtn" class="btn btn-sm btn-default" style="margin-left: 10px;">
+            <i class="fa fa-copy"></i> Copiar
+          </button>
+        </div>
+
+        <!-- Botón de mailto alternativo -->
+        <a href="#" id="openEmailClient" class="btn btn-success btn-lg">
+          <i class="fa fa-envelope"></i> Abrir cliente de correo
         </a>
+
+        <!-- Mensaje de confirmación (oculto inicialmente) -->
+        <div id="copyConfirmation" style="display: none; color: green; margin-top: 10px;">
+          ¡Email copiado al portapapeles!
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Script para funcionalidad -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Limpiar el email para uso real (elimina los spans de anti-spam)
+    const emailElement = document.querySelector('.email-address');
+    const realEmail = emailElement.textContent
+      .replace(/-anti-spam-/g, '')
+      .replace(/no-spam/g, '')
+      .replace(/\s+/g, '');
+
+    // Botón de copiado
+    document.getElementById('copyEmailBtn').addEventListener('click', function() {
+      navigator.clipboard.writeText(realEmail).then(function() {
+        const confirmation = document.getElementById('copyConfirmation');
+        confirmation.style.display = 'block';
+        setTimeout(() => confirmation.style.display = 'none', 2000);
+      });
+    });
+
+    // Botón de mailto
+    document.getElementById('openEmailClient').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'mailto:' + realEmail;
+    });
+  });
+</script>
