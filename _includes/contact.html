@@ -9,27 +9,24 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p>Puedes contactarme directamente por correo electrónico:</p>
+        <p>You can contact me directly by email:</p>
         
         <!-- Email visible con protección anti-spam -->
         <div style="margin: 20px 0; font-size: 1.3em; background: #f8f9fa; padding: 15px; border-radius: 5px;">
-          <strong id="realEmailDisplay">contacto<span style="display:none">no-valid</span>@<span style="display:none">ignore</span>dominio.com</strong>
+          <strong id="realEmailDisplay">ingvicentecontreras<span style="display:none">no-valid</span>@<span style="display:none">ignore</span>gmail.com</strong>
         </div>
 
-        <!-- Botones de acción -->
-        <div class="btn-group" style="margin-top: 15px;">
-          <a href="#" id="mailtoBtn" class="btn btn-success btn-lg">
-            <i class="fa fa-envelope"></i> Abrir cliente de correo
-          </a>
+        <!-- Solo botón de copiar (eliminado el botón de mailto) -->
+        <div style="margin-top: 15px;">
           <button id="copyBtn" class="btn btn-primary btn-lg">
-            <i class="fa fa-copy"></i> Copiar email
+            <i class="fa fa-copy"></i> Copy email
           </button>
         </div>
 
-        <!-- Mensaje de confirmación (oculto inicialmente) -->
+        <!-- Mensaje de confirmación -->
         <div id="copyAlert" style="display: none; margin-top: 15px;">
           <div class="alert alert-success" role="alert">
-            <i class="fa fa-check"></i> ¡Email copiado al portapapeles!
+            <i class="fa fa-check"></i> Email copied to clipboard!
           </div>
         </div>
       </div>
@@ -37,7 +34,7 @@
   </div>
 </section>
 
-<!-- Script de funcionalidad -->
+<!-- Script de funcionalidad (solo copiado) -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Extraer el email real eliminando los spans de protección
@@ -48,14 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .replace(/\s+/g, '')
     .trim();
 
-  // 1. Botón para abrir cliente de correo (100% funcional)
-  document.getElementById('mailtoBtn').addEventListener('click', function(e) {
-    e.preventDefault();
-    // Método compatible con todos los navegadores
-    window.location = 'mailto:' + realEmail;
-  });
-
-  // 2. Botón para copiar email
+  // Botón para copiar email
   document.getElementById('copyBtn').addEventListener('click', function() {
     navigator.clipboard.writeText(realEmail).then(function() {
       // Mostrar confirmación
