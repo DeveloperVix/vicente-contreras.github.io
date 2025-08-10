@@ -8,4 +8,14 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: jijo de su madre, un nuevo proyecto
+video: https://drive.google.com/file/d/1iDCCbRxLONp4RW4wx_3OCJEcBOQLVMkG/view?usp=sharing
 ---
+
+<div class="aspect-video my-8">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allowfullscreen
+    class="w-full h-full rounded-lg">
+  </iframe>
+</div>
