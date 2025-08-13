@@ -489,16 +489,22 @@ footer .footer-below {
   text-justify: inter-word; /* Para mejor legibilidad */
 }
 
-/* Lista alineada a la derecha */
-.right-aligned-list {
-  text-align: right;
+/* Estilo de lista */
+.styled-list {
+  text-align: left;
+  list-style-position: outside; /* Viñetas fuera del flujo */
+  padding-left: 1.5rem; /* Sangría estándar */
 }
 
-.right-aligned-list ul {
-  list-style-position: inside; /* Viñetas dentro del flujo del texto */
-  padding-left: 0; /* Elimina sangría predeterminada */
+/* Sub-listas (anidadas) */
+.styled-list ul {
+  padding-left: 2rem; /* Mayor sangría para anidación */
+  list-style-type: circle; /* Viñetas diferenciadas */
 }
 
-.right-aligned-list li {
-  margin-right: 20px; /* Espacio adicional a la derecha */
+/* Títulos de sección */
+.left-aligned-content h4 {
+  color: #333; /* Color oscuro para jerarquía */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }

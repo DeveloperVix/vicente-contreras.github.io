@@ -15,9 +15,9 @@ description: >
 
   <p class="text-justify">Although the pitch was well received, we identified that the team needed more experience in live ops and monetization to scale the project. Despite this, the prototype demonstrated solid technical design and gameplay.</p>
 
-  <div class="right-aligned-list">
+  <div class="left-aligned-content">
   <h4>Key Contributions</h4>
-  <ul>
+  <ul class="styled-list">
     <li><strong>Gameplay Programming:</strong>
       <ul>
         <li>Implementation of clicker mechanics with power-ups to optimize interactions.</li>
