@@ -482,3 +482,23 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Texto justificado */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word; /* Para mejor legibilidad */
+}
+
+/* Lista alineada a la derecha */
+.right-aligned-list {
+  text-align: right;
+}
+
+.right-aligned-list ul {
+  list-style-position: inside; /* Viñetas dentro del flujo del texto */
+  padding-left: 0; /* Elimina sangría predeterminada */
+}
+
+.right-aligned-list li {
+  margin-right: 20px; /* Espacio adicional a la derecha */
+}
