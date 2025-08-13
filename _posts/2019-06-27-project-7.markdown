@@ -1,6 +1,7 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 7
+name-project: Waifuck
 date: 2019-06-27
 img: cabin.png
 alt: image-alt
@@ -11,6 +12,7 @@ tech: Unity (C#), Scriptable Objects, Github
 rol: Producer, Gameplay Programmer and Game Design support
 platform: Mobile (Prototype)
 description: >
+  <h4>About this project</h4>
   <p class="text-justify">As part of an eight-person team, we explored the niche of erotic games for platforms like Nutaku. We developed a working prototype that combined clicker mechanics with dating sim elements, where the player interacted with characters through chats, dates, and a reward collection system (photos).</p>
 
   <p class="text-justify">Although the pitch was well received, we identified that the team needed more experience in live ops and monetization to scale the project. Despite this, the prototype demonstrated solid technical design and gameplay.</p>
@@ -30,7 +32,7 @@ description: >
   </ul>
 
   <h4>Challenges and Learnings</h4>
-  <ul>
+  <ul class="styled-list">
     <li>Visual Adaptability: Limitations in the art pipeline to avoid pixelation across multiple screen resolutions (a common problem on mobile).</li>
     <li>MVP Focus: Prioritizing a minimum viable product to quickly validate the concept.</li>
     <li>Key Lesson: The importance of mastering live ops and retention metrics in F2P games.</li>

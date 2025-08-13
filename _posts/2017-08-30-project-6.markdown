@@ -1,0 +1,56 @@
+---
+layout: default
+modal-id: 6
+name-project: Counting Vortexes
+date: 2017-08-30
+img: cabin.png
+alt: image-alt
+section: games
+project-date: November 2017
+client: Personal project, using TrickShot Games brand
+tech: Unity (C#), Blender, Adobe Photoshop, Adobe Premiere, Unity ADS, Google Play Console
+rol: Fullstack Developer (Design, Programming, Art)
+platform: Android (Published on Play Store). Not available for now, work in progress
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">The latest iteration of the TrickShot Games project (another attempt at creating a video game studio), focused on exploring monetization through Unity ADS. The game combines 3D puzzle mechanics with procedural level generation, where the objective is to find hidden "vortexes" in a dynamic environment. The player rotates platforms with unique effects (e.g., acceleration, bounce) to avoid obstacles and reach the goal, encouraging experimentation with physics.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay Programming and Game Design:</strong>
+      <ul>
+        <li>Procedural level generation system, ensuring variety and replayability.</li>
+        <li>Advanced 2D/3D physics integration (Unity 2021+) for realistic object interactions.</li>
+        <li>Implemented Unity ADS (banners and interstitials) with player journey analysis to maximize revenue without breaking the experience.</li>
+      </ul>
+    </li>
+    <li><strong>Art and Production:</strong>
+      <ul>
+        <li>3D modeling in Blender (characters and interactive elements).</li>
+        <li>UI/UX design in Photoshop (sprites and intuitive interface).</li>
+        <li>Creation of the first game trailer using Adobe Premiere (editing and visual narrative).</li>
+      </ul>
+    </li>
+    <li><strong>Publication:</strong> Complete management of Google Play Store releases, from optimized builds to metadata (description, icon, screenshots).</li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li>Monetization: Balance between ad frequency and player retention (study of basic metrics such as session length).</li>
+    <li>Copyright-Free Art: The Learning Curve for Original Asset Design and Royalty-Free Audio Selection.</li>
+    <li>Optimization: Physics tuning for mid-range mobile devices.</li>
+    <li>Key Lesson: Early core loop validation in procedurally generated games.</li>
+  </div>
+video: https://drive.google.com/file/d/1w6pscYDuugRPTjRbK32vvudr0LF78Zqq/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
