@@ -26,9 +26,6 @@
               </iframe>
             </div>
             {% endif %}
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -40,12 +37,25 @@
                 <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
+              {% if post.rol %}
+              <li>Role:
+                <strong>{{ post.rol }}</strong>
+              </li>
+              {% endif %}
+              {% if post.tech %}
+              <li>Technology:
+                <strong>{{ post.tech }}</strong>
+              </li>
+              {% endif %}
+              {% if post.platform %}
+              <li>Platform:
+                <strong>{{ post.platform }}</strong>
               </li>
               {% endif %}
             </ul>
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
