@@ -11,25 +11,6 @@ tech: Unity (C#), Scriptable Objects, Github
 rol: Producer, Gameplay Programmer and Game Design support
 platform: Mobile (Prototype)
 description: <p>As part of an eight-person team, we explored the niche of erotic games for platforms like Nutaku. We developed a working prototype that combined clicker mechanics with dating sim elements, where the player interacted with characters through chats, dates, and a reward collection system (photos).</p>
-
-  <p>Although the pitch was well received, we identified that the team needed more experience in live ops and monetization to scale the project. Despite this, the prototype demonstrated solid technical design and gameplay.</p>
-  <h4>Key Contributions</h4>
-  <ul>
-    <li><strong>Gameplay Programming:</strong>
-      <ul>
-        <li>Implementation of clicker mechanics with power-ups to optimize interactions.</li>
-        <li>Tinder-inspired dating system, with progression based on three encounters per character.</li>
-        <li>Use of Scriptable Objects to manage character data and player progress, ensuring scalability.</li>
-      </ul>
-    *Optimization*: Efficient and modular code, with an emphasis on performance for mobile devices.
-    *Team Management*: Coordination of tasks and communication between artists, designers, and other programmers.
-  </ul>
-  <h4>Challenges and Learnings</h4>
-  <ul>
-    <li>Visual Adaptability: Limitations in the art pipeline to avoid pixelation across multiple screen resolutions (a common problem on mobile).</li>
-    <li>MVP Focus: Prioritizing a minimum viable product to quickly validate the concept.</li>
-    <li>Key Lesson: The importance of mastering live ops and retention metrics in F2P games.</li>
-
 video: https://drive.google.com/file/d/1iDCCbRxLONp4RW4wx_3OCJEcBOQLVMkG/preview
 ---
 
