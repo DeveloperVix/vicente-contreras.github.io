@@ -489,6 +489,11 @@ footer .footer-below {
   text-justify: inter-word; /* Para mejor legibilidad */
 }
 
+/* Contenedor de lista izquierda */
+.left-aligned-content {
+  width: 100%; /* Ocupa todo el ancho */
+}
+
 /* Estilo de lista */
 .styled-list {
   text-align: left;
