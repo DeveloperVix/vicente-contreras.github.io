@@ -8,7 +8,7 @@ alt: image-alt
 section: games
 project-date: October 2017
 client: Personal project - Campus Party 2017 - Alienware Latin America
-tech: Unity (C#), Adobe Photoshop, Kenney assets, A* Pathfinding Project
+tech: Unity (C#) - Adobe Photoshop - Kenney assets - A* Pathfinding Project
 rol: Game Design, Gameplay Programmer
 platform: PC (Web)
 project-link: https://developervix.itch.io/alien-station
