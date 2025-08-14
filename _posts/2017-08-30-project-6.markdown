@@ -7,10 +7,11 @@ img: cabin.png
 alt: image-alt
 section: games
 project-date: November 2017
-client: Personal project, using TrickShot Games brand
+client: Personal project - Using TrickShot Games brand
 tech: Unity (C#), Blender, Adobe Photoshop, Adobe Premiere, Unity ADS, Google Play Console
 rol: Fullstack Developer (Design, Programming, Art)
 platform: Android (Published on Play Store). Not available for now, work in progress
+project-link:
 description: >
   <h4>About this project</h4>
   <p class="text-justify">The latest iteration of the TrickShot Games project (another attempt at creating a video game studio), focused on exploring monetization through Unity ADS. The game combines 3D puzzle mechanics with procedural level generation, where the objective is to find hidden "vortexes" in a dynamic environment. The player rotates platforms with unique effects (e.g., acceleration, bounce) to avoid obstacles and reach the goal, encouraging experimentation with physics.</p>
@@ -37,10 +38,10 @@ description: >
 
   <h4>Challenges and Learnings</h4>
   <ul class="styled-list">
-    <li>Monetization: Balance between ad frequency and player retention (study of basic metrics such as session length).</li>
-    <li>Copyright-Free Art: The Learning Curve for Original Asset Design and Royalty-Free Audio Selection.</li>
-    <li>Optimization: Physics tuning for mid-range mobile devices.</li>
-    <li>Key Lesson: Early core loop validation in procedurally generated games.</li>
+    <li><strong>Monetization:</strong> Balance between ad frequency and player retention (study of basic metrics such as session length).</li>
+    <li><strong>Copyright-Free Art:</strong> The Learning Curve for Original Asset Design and Royalty-Free Audio Selection.</li>
+    <li><strong>Optimization:</strong> Physics tuning for mid-range mobile devices.</li>
+    <li><strong>Key Lesson:</strong> Early core loop validation in procedurally generated games.</li>
   </div>
 video: https://drive.google.com/file/d/1w6pscYDuugRPTjRbK32vvudr0LF78Zqq/preview
 ---

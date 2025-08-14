@@ -56,6 +56,11 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            {% if post.project-link %}
+            <a href="{{ post.project-link }}" target="_blank" class="btn btn-primary mb-3">
+             <i class="fa fa-external-link"></i> View Project
+            </a>
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

@@ -1,0 +1,53 @@
+---
+layout: default
+modal-id: 13
+name-project: Alien Station
+date: 2017-10-06
+img: cabin.png
+alt: image-alt
+section: games
+project-date: October 2017
+client: Personal project - Campus Party 2017 - Alienware Latin America
+tech: Unity (C#), Adobe Photoshop, Kenney assets, A* Pathfinding Project
+rol: Producer, Gameplay Programmer and Game Design support
+platform: PC (Web)
+project-link: https://developervix.itch.io/alien-station
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">I participated in the last Campus Party Mexico under the challenge of Alienware Latin America, whose objective was to create a video game that represented its range of computers in an interactive environment. The restrictions included the use of assets provided by Alienware and that the game be playable in a web browser.</p>
+
+  <p class="text-justify">I developed a top-down shooter with a narrative based on protecting an alien station (an analogy to hardware defending itself against viruses). The player had to survive for two minutes using three types of weapons and a unique mechanic: dimension shifting to confront enemies on different planes. The project was selected among the top 20, giving me the opportunity to present it to Frank Azor (co-founder of Alienware).</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay:</strong>
+      <ul>
+        <li>Weapon system with three firing styles (burst, laser, area).</li>
+        <li>Parallel dimension mechanics increase complexity, as each dimension contains specific enemies, so you have to switch between them to defeat them.</li>
+        <li>Enemy AI with A* algorithm for intelligent pathfinding.</li>
+      </ul>
+    </li>
+    <li><strong>Creative Adaptation:</strong> Use of assets provided by Alienware, integrated with copyright-free art and audio elements.</li>
+    <li><strong>Browser Optimization:</strong> Development in Unity, adjusting the project for the Web, ensuring compatibility and performance in browsers.</li>
+    <li><strong>Event Participation:</strong> Game presentation in a competitive environment, with industry feedback.</li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Difficulty Balance:</strong> Lack of time to fine-tune gameplay balance (e.g., weapon damage, enemy spawn rate).</li>
+    <li><strong>Technical Limitations:</strong> Working with web technology and external assets under a tight deadline (2 months).</li>
+    <li><strong>Key Lesson:</strong> The importance of prototyping key mechanics before polishing artistic details.</li>
+  </div>
+video: 
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
