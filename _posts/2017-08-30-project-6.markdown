@@ -8,7 +8,7 @@ alt: image-alt
 section: games
 project-date: November 2017
 client: Personal project - Using TrickShot Games brand
-tech: Unity (C#), Blender, Adobe Photoshop, Adobe Premiere, Unity ADS, Google Play Console
+tech: Unity (C#) - Blender - Adobe Photoshop - Adobe Premiere - Unity ADS - Google Play Console
 rol: Fullstack Developer (Design, Programming, Art)
 platform: Android (Published on Play Store). Not available for now, work in progress
 project-link:

@@ -1,0 +1,50 @@
+---
+layout: default
+modal-id: 12
+name-project: Slider Hunter
+date: 2019-01-01
+img: cabin.png
+alt: image-alt
+section: games
+project-date: January 2019
+client: Personal project
+tech: Unity (C#) - Scriptable Objects - OpenGameArt - Lean touch (asset)
+rol: Game Designer, Gameplay Programmer
+platform: Mobile (Prototype on hold)
+project-link: 
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Inspired by the cosmic horror atmosphere of Bloodborne (From Software) and the mythos of H.P. Lovecraft, this mobile prototype offered a real-time tactical combat experience. The player takes on the role of a cursed soldier who must enter a city plagued by aberrant creatures to save his family, gradually uncovering the truth behind the curse.</p>
+
+  <p class="text-justify">Unlike traditional souls-likes, the game prioritized a gesture-based combat system (swipes and taps on the screen) to execute attacks, dodge or block, creating a dynamic similar to "real-time turn-based combat."</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay Programming and Game Design:</strong>
+      <ul>
+        <li>Touch gesture system for attacks and defense, optimized for mobile screens.</li>
+        <li>Enemy AI based on finite state machines (FSM), with behaviors reactive to the player's position and health.</li>
+        <li>Lovecraftian-style environmental narrative, revealed through enemy encounters and brief dialogue.Lovecraftian-style environmental narrative, revealed through enemy encounters and brief dialogue.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Combat Balance:</strong> Difficulty balancing real-time speed with the required precision of gestures.</li>
+    <li><strong>Prototype Limitations:</strong> Lack of resources to refine visual feedback (e.g., clear hit animations).</li>
+    <li><strong>Key Lesson:</strong> The importance of validating complex touch mechanics early.</li>
+  </div>
+video: https://drive.google.com/file/d/1iCFquxX_VWX_mAkVjOu1RPv1Ei-IuyG7/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
