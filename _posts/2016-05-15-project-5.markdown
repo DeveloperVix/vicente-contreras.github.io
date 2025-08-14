@@ -1,0 +1,64 @@
+---
+layout: default
+modal-id: 5
+name-project: Axel the dragon
+date: 2016-05-15
+img: cabin.png
+alt: image-alt
+section: games
+project-date: May 2016
+client: TrickShot Games
+tech: Unity (C#) - Scriptable Objects
+rol: Lead Programmer & UX/UI Co-Designer
+platform: Android (Published on Play Store). Not available for now due to contract with the owner
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">The first (and only) project developed under the TrickShot label for an external IP (Axel the Dragon). The game combined tower defense (inspired by Plants vs. Zombies) and runner mechanics, adapting to the narrative of the dragon Axel.</p>
+  
+  <p class="text-justify">
+  <li><strong>Key Details:</strong>
+      <ul>
+        <li>Two iterative versions:
+         <ul>
+          <li>V1: 10 pure tower defense levels.</li>
+          <li>V2: 15 genre-blending levels + Flappy Bird minigame.</li>
+         </ul>
+        </li>
+        <li>Monetization via virtual store (power-ups, characters) and interstitial advertising (optional videos).</li>
+        <li>Transmedia content: Story told through integrated videos and digital comics.</li>
+      </ul>
+  </li>
+  </p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay Programming and Game Design:</strong>
+      <ul>
+        <li>Balance between accessibility and challenge (progressive difficulty curve).</li>
+        <li>Memorizable yet challenging boss attack patterns (inspired by simplified bullet hells).</li>
+      </ul>
+    </li>
+    <li><strong>Optimization:</strong> Implementation of some design patterns for better performance on mobile devices, such as singleton and object pooling.</li>
+    <li><strong>Process:</strong> Complete Google Play Store upload process (build, metadata, and asset management Post-launch retention and difficulty analysis.</li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Game Design:</strong> First serious approach to risk-reward balance in shooters (e.g., rewards for getting close to enemies).</li>
+    <li><strong>Technical Limitations:</strong> Lack of polish in visual feedback (e.g., clear indicators of damage taken).</li>
+    <li><strong>Key Lesson:</strong> The importance of the first 30 seconds of gameplay to capture the casual player.</li>
+  </div>
+video: https://drive.google.com/file/d/1HB7FZKJGTeb-VWXQbMQj04xa2GyQcRvi/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>

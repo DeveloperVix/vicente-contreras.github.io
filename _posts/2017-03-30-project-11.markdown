@@ -2,7 +2,7 @@
 layout: default
 modal-id: 11
 name-project: Proyect Invader
-date: 2019-06-27
+date: 2017-03-30
 img: cabin.png
 alt: image-alt
 section: games
@@ -16,15 +16,17 @@ description: >
   <h4>About this project</h4>
   <p class="text-justify">After the original TrickShot team disbanded, I decided to continue as a solo developer, exploring classic genres to further my skills. Invader (the name intentionally misspelled as a marketing ploy) was an arcade spaceship shooter designed with the philosophy: "easy to learn, hard to master."</p>
   
-  <div class="text-justify">
-  <li><strong>The game offered a pure and addictive experience:</strong>
+  <p class="text-justify">The game offered a pure and addictive experience:</p>
+
+  <p class="text-justify">
+  <li>
       <ul>
         <li>Limited horizontal movement (to emphasize positional strategy).</li>
         <li>Automatic firing, allowing the player to focus on dodging bullet patterns.</li>
         <li>Variety of enemies and bosses with battle phases, increasing gameplay depth.</li>
       </ul>
   </li>
-  </div>
+  </p>
 
   <div class="left-aligned-content">
   <h4>Key Contributions</h4>
