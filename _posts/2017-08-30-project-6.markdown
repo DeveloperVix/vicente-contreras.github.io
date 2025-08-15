@@ -56,7 +56,8 @@ video-yt: https://www.youtube.com/embed/CmyKGcHE53s
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen>
     </iframe>
-  {% elsif page.video %}
+  {% endif %}
+  {% if page.video %}
     <!-- Google Drive (alternativo) -->
     <iframe 
       src="{{ page.video }}" 
@@ -64,4 +65,5 @@ video-yt: https://www.youtube.com/embed/CmyKGcHE53s
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen>
     </iframe>
+  {% endif %}
 </div>
