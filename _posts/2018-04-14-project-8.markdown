@@ -1,0 +1,73 @@
+---
+layout: default
+modal-id: 8
+name-project: Itollani
+date: 2018-04-14
+img: cabin.png
+alt: image-alt
+section: games
+project-date: April 2014
+client: Stoney Road Studios
+tech: Unity (C#) - Adobe Photoshop - Trello
+rol: Director, Lead Programmer & Gameplay/Level Designer
+platform: PC (Windows)
+project-link: https://evil-geometry.itch.io/itollani
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Second attempt to found a studio in Morelia, Mexico, creating a metroidvania with:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Narrative based on Mexican myths: Reinterpretation of deities like Mictlantecuhtli.</li>
+        <li>Hybrid mechanics: Metroid-style exploration + tactical combat inspired by Dark Souls.</li>
+        <li>Moral consequence system: The God of Death judged the player based on their actions (sacrifices, enemy captures).</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">We released a demo on itch.io after a year of development.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming:</strong>
+      <ul>
+        <li>Fuzzy logic AI for Mictlantecuhtli: It evaluated player decisions (items collected, enemies sacrificed) to determine their fate upon death.</li>
+        <li>Combat system with weight (cancel animations, stamina).</li>
+      </ul>
+    </li>
+    <li><strong>Game Design:</strong>
+      <ul>
+        <li>Non-linear level design with alternating skill-based paths.</li>
+        <li>Mini-environmental challenges (e.g., puzzles using combat skills).</li>
+      </ul>
+    </li>
+    <li><strong>Direction:</strong>
+      <ul>
+        <li>Coordination of 12 people (artists, writers, programmers).</li>
+        <li>Documentation of GDD and key mechanics.</li>
+      </ul>
+    </li>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Team Management:</strong> Difficulty aligning creative vision and deadlines with a large team.</li>
+    <li><strong>Ambitious Scope:</strong> Complex mechanics (fuzzy AI) vs. limited time.</li>
+    <li><strong>Key Lessons:</strong>
+      <ul>
+        <li>Need to master project management (agile methodologies, clear roadmap).</li>
+        <li>Importance of prototyping narrative mechanics before scaling art.</li>
+      </ul>
+    </li>
+  </div>
+video: 
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>

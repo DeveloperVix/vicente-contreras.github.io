@@ -9,7 +9,7 @@ section: games
 project-date: December 2014
 client: TrickShot Games
 tech: Unity (C#) - Adobe Photoshop
-rol: Game Design - Gameplay Programmer -Google Play Console - Xcode for testing
+rol: Game Design - Gameplay Programmer - Google Play Console - Xcode for testing
 platform: Mobile (Android and IOS)
 project-link: 
 description: >
