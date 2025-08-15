@@ -17,7 +17,7 @@ description: >
   <p class="text-justify">The first (and only) project developed under the TrickShot label for an external IP (Axel the Dragon). The game combined tower defense (inspired by Plants vs. Zombies) and runner mechanics, adapting to the narrative of the dragon Axel.</p>
   
   <div class="left-aligned-content">
-  <h4>Key Details:</h4>
+  <p class="text-justify">Key Details:</p>
    <ul class="styled-list">
         <li>Two iterative versions:
          <ul>

@@ -44,7 +44,18 @@ description: >
     <li><strong>Key Lesson:</strong> Early core loop validation in procedurally generated games.</li>
   </div>
 video: https://drive.google.com/file/d/1w6pscYDuugRPTjRbK32vvudr0LF78Zqq/preview
+video-yt: https://www.youtube.com/embed/CmyKGcHE53s?si=k5YMWNQBkkyEDXd9
 ---
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe 
+    src="{{ page.video-yt }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
 
 <div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
   <iframe 
