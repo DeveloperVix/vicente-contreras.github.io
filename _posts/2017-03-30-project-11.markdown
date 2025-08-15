@@ -19,7 +19,7 @@ description: >
   <p class="text-justify">The game offered a pure and addictive experience:</p>
 
   <p class="text-justify">
-   <ul>
+   <ul class="styled-list">
         <li>Limited horizontal movement (to emphasize positional strategy).</li>
         <li>Automatic firing, allowing the player to focus on dodging bullet patterns.</li>
         <li>Variety of enemies and bosses with battle phases, increasing gameplay depth.</li>
