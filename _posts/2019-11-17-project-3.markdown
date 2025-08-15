@@ -1,0 +1,78 @@
+---
+layout: default
+modal-id: 4
+name-project: Payns' Redemption Cruzade
+date: 2019-11-17
+img: cabin.png
+alt: image-alt
+section: games
+project-date: November 2019
+client: Evil Geometry - Prototype
+tech: Unity (C#) - 
+rol: Producer - Lead Programmer - Game Design for Gameplay
+platform: PC via itch.io
+project-link: https://evil-geometry.itch.io/paynsredemptioncruzade
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">A hack 'n slash prototype with a historical-fantasy narrative, where Hugo de Payns (a knight cat) journeys to hell to save his village, reimagining the origin of the Knights Templar. Inspired by:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Gameplay: Fluid Castle Crashers-style combos.</li>
+        <li>Art: 2D characters in 3D environments (Paper Mario effect)</li>
+        <li>Tone: Blend of humor and medieval epic</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">Validated at player events, demonstrating potential for a cult following.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming & Gameplay:</strong>
+      <ul>
+        <li>Combo and special moves system (up to 8 variations per weapon)</li>
+        <li>Enemy AI with scalable attack patterns (state machine-based)</li>
+        <li>Seamless cutscenes triggered by gameplay events</li>
+      </ul>
+    </li>
+    <li><strong>Production:</strong>
+      <ul>
+        <li>Managed a multidisciplinary team (artists, designers)</li>
+        <li>Delivered a playable build in 3 months</li>
+      </ul>
+    </li>
+    <li><strong>Technical Architecture:</strong> Modular system to blend 2D sprites with 3D lighting</li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Scope creep:</strong> Ambitious mechanics (e.g., combos) vs tight timeline</li>
+    <li><strong>IA design:</strong> For enemies combining fuzzy logic for decision making and state changes</li>
+    <li><strong>Team dynamics:</strong> Creative alignment and workload distribution issues</li>
+    <li><strong>Key Lesson:</strong> he critical need for process documentation to prevent bottlenecks</li>
+  </div>
+video: 
+video-yt: 
+---
+
+<div class="video-container">
+  {% if page.video-yt %}
+    <!-- YouTube (prioritario) -->
+    <iframe 
+      src="{{ page.video-yt }}" 
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  {% endif %}
+  {% if page.video %}
+    <!-- Google Drive (alternativo) -->
+    <iframe 
+      src="{{ page.video }}" 
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  {% endif %}
+</div>
