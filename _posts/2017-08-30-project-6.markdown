@@ -44,7 +44,7 @@ description: >
     <li><strong>Key Lesson:</strong> Early core loop validation in procedurally generated games.</li>
   </div>
 video: https://drive.google.com/file/d/1w6pscYDuugRPTjRbK32vvudr0LF78Zqq/preview
-video-yt: https://www.youtube.com/embed/CmyKGcHE53s?si=k5YMWNQBkkyEDXd9
+video-yt: https://www.youtube.com/embed/CmyKGcHE53s
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

@@ -46,7 +46,6 @@ description: >
         <li>Adaptation of assets provided by the client to ensure visual consistency.</li>
       </ul>
     </li>
-    <li><strong>Adaptation of assets provided by the client to ensure visual consistency.</li>
   </ul>
 
   <h4>Challenges and Learnings</h4>
