@@ -9,7 +9,7 @@ section: games
 project-date: January 2019 to June 2019
 client: Internal Evil Geometry project - Using a Dat Fluffy Balls team brand
 tech: Unity (C#) - Scriptable Objects - Github
-rol: Producer, Gameplay Programmer and Game Design support
+rol: Producer - Gameplay Programmer and Game Design support
 platform: Mobile (Prototype)
 project-link:
 description: >

@@ -9,7 +9,7 @@ section: games
 project-date: January 2019
 client: Personal project
 tech: Unity (C#) - Scriptable Objects - OpenGameArt - Lean touch (asset)
-rol: Game Designer, Gameplay Programmer
+rol: Game Designer - Gameplay Programmer
 platform: Mobile (Prototype on hold)
 project-link: 
 description: >

@@ -1,0 +1,64 @@
+---
+layout: default
+modal-id: 4
+name-project: Flash Shoot
+date: 2014-12-15
+img: cabin.png
+alt: image-alt
+section: games
+project-date: December 2014
+client: TrickShot Games
+tech: Unity (C#) - Adobe Photoshop
+rol: Game Design - Gameplay Programmer -Google Play Console - Xcode for testing
+platform: Mobile (Android and IOS)
+project-link: 
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">The first game published under the name TrickShot, marking the beginning of my career as a developer. A minimalist arcade shooter where:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>The player controls a ship that rotates to aim at a skull in the center.</li>
+        <li>Shooting is automatic, focusing on precision and endurance ("survival" mode).</li>
+        <li>Pixel art created by a contributor.</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">Developed while self-taught in Unity, combining studies with development.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming and Game Design:</strong>
+      <ul>
+        <li>Smooth rotation system with 2D physics (optimized for touchscreens).</li>
+        <li>Scoring based on survival time and accuracy.</li>
+        <li>First look at Unity 3 and its technical limitations.</li>
+      </ul>
+    </li>
+    <li><strong>Release:</strong>
+      <ul>
+        <li>Complete process on the Google Play Store (build, asset, and metadata management).</li>
+        <li>Experimentation with porting to iOS (no final release).</li>
+      </ul>
+    </li>
+    <li><strong>Self-Learning:</strong> Beginning proficiency in C# and Unity workflows.</li>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Learning curve:</strong> Difficulty debugging errors in older versions of Unity.</li>
+    <li><strong>Limited art:</strong> Dependence on an external collaborator for visual assets.</li>
+    <li><strong>Key Lesson:</strong> The importance of defining a realistic scope in early projects.</li>
+  </div>
+video: https://drive.google.com/file/d/1UrSCXko_JpdT7gWSibBa9Q_bk3GPX7T5/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>

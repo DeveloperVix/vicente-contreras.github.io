@@ -9,7 +9,7 @@ section: games
 project-date: March 2017
 client: Personal project - Using TrickShot Games brand
 tech: Unity (C#) - Scriptable Objects - Github - OpenGameArt
-rol: Producer, Gameplay Programmer and Game Design
+rol: Producer - Gameplay Programmer and Game Design
 platform: Android (Published on Play Store). Not available for now, work in progress
 project-link:
 description: >
