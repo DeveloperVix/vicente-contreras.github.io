@@ -1,0 +1,70 @@
+---
+layout: default
+modal-id: 7
+name-project: Anima Path
+date: 2020-02-14
+img: cake.png
+alt: image-alt
+section: games
+project-date: February 2020
+client: Evil Geometry - LineXArt
+tech: Unity (C#) - Github
+rol: Producer - Programmer - Game Design - Screenwriter
+platform: Mobile (Android)
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Game created for the Morelia Art Festival, in collaboration with the LineXArt laboratory. An interactive experience that combines:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Cultural Tradition: Inspired by the Day of the Dead, it explores the symbolism of altars and offerings.</li>
+        <li>Emotional Narrative: The player guides an anima (soul) on a side-scrolling journey, solving abstract puzzles while uncovering its story.</li>
+        <li>Social Message: Promotes empathy through reflections on life and death.</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">Prototype developed in 2 months to illustrate the creative process of video games in an artistic context.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay Programming and Game Design:</strong>
+      <ul>
+        <li>Lateral movement mechanics with interactions based on ritual objects (candles, flowers, photos).</li>
+        <li>Contextual puzzle system linked to altar elements.</li>
+        <li>Unity Ads integration (non-intrusive monetization).</li>
+      </ul>
+    </li>
+    <li><strong>Narrative and Production:</strong>
+      <ul>
+        <li>Script for the first story, focusing on universal personal stories.</li>
+        <li>Coordination with artists to maintain visual and thematic consistency.</li>
+      </ul>
+    </li>
+    <li><strong>Cultural Outreach:</strong>
+      <ul>
+        <li>Creation of a trailer (Adobe Premiere) for the festival.</li>
+        <li>Talks on game design with a social purpose and also promoting part of the essence of the Day of the Dead.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Abstract art:</strong> Difficulty balancing cultural symbolism with intuitive gameplay.</li>
+    <li><strong>Tight deadlines:</strong> Prioritizing an MVP (minimum viable product) for the festival.</li>
+    <li><strong>Key Lesson:</strong> The potential of video games as tools for emotional education.</li>
+  </div>
+video: https://drive.google.com/file/d/1iDCCbRxLONp4RW4wx_3OCJEcBOQLVMkG/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
