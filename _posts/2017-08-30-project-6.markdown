@@ -48,22 +48,20 @@ video-yt: https://www.youtube.com/embed/CmyKGcHE53s
 ---
 
 <div class="video-container">
-  {% if page.video-yt %}
-    <!-- YouTube (prioritario) -->
-    <iframe 
-      src="{{ page.video-yt }}" 
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  {% endif %}
-  {% if page.video %}
-    <!-- Google Drive (alternativo) -->
-    <iframe 
-      src="{{ page.video }}" 
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  {% endif %}
+  <iframe 
+    src="{{ page.video-yt }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
 </div>
