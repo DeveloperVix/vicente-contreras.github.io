@@ -517,9 +517,8 @@ footer .footer-below {
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* Relación 16:9 */
-  height: 0;
-  overflow: hidden;
   margin: 20px 0;
+  overflow: hidden;
 }
 
 .video-container iframe {
