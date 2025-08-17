@@ -1,0 +1,70 @@
+---
+layout: default
+modal-id: 1
+name-project: MISHI-P
+date: 2019-07-30
+img: safe.png
+alt: image-alt
+section: games
+project-date: July 2019
+client: Evil Geometry
+tech: Unity (C#) - Scriptable Objects - Github
+rol: Producer - Gameplay Programmer and Game Design support
+platform: Mobile (Prototype)
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Rapid prototype developed during participation in LABEM (incubator in Morelia), as an exercise to:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Validate agile processes: Relaunch Project: Invader with new art and tweaks.</li>
+        <li>Experiment with metrics: Retention and monetization tests suggested by the incubator.</li>
+        <li>Reuse codebase: Optimize the original arcade shooter (horizontal movement + automatic shooting).</li>
+   </ul>
+  </p>
+  <h5>Key changes from the original version:</h5>
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Revamped art (player, enemies, and UI).</li>
+        <li>Critical bug fixes.</li>
+        <li>New name (Mishi-P).</li>
+   </ul>
+  </p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Efficient Reuse:</strong>
+      <ul>
+        <li>Invader code adaptation in 48 hours (shooting system, enemy spawning).</li>
+        <li>Integration of new graphic assets without recalibrating the balance.</li>
+      </ul>
+    </li>
+    <li><strong>Rapid Iteration:</strong>
+      <ul>
+        <li>A/B testing with local players to validate changes.</li>
+        <li>Implementation of adjustments based on feedback from LABEM (business incubator).</li>
+      </ul>
+    </li>
+    <li><strong>Incubation Learning:</strong> Introduction to basic engagement metrics (session length, perceived difficulty).</li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Speed vs. Quality:</strong> Difficulty polishing details in ultra-short deadlines.</li>
+    <li><strong>Incubator Expectations:</strong> Balance your suggestions with the team's technical reality.</li>
+    <li><strong>Key Lesson:</strong> The importance of modularizing code for future pivots.</li>
+  </div>
+video: https://drive.google.com/file/d/1mFSr-OzluQKa2U33bdoJoFmBz6rFe5kS/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
