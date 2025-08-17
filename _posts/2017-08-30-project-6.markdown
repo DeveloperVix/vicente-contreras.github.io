@@ -43,25 +43,14 @@ description: >
     <li><strong>Optimization:</strong> Physics tuning for mid-range mobile devices.</li>
     <li><strong>Key Lesson:</strong> Early core loop validation in procedurally generated games.</li>
   </div>
-video: https://drive.google.com/file/d/1w6pscYDuugRPTjRbK32vvudr0LF78Zqq/preview
-video-yt: https://www.youtube.com/embed/CmyKGcHE53s
+video: https://www.youtube.com/embed/CmyKGcHE53s
 ---
 
 <div class="video-container">
   <iframe 
-    src="{{ page.video-yt }}" 
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
-  <iframe 
     src="{{ page.video }}" 
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    class="w-full h-full">
+    allowfullscreen>
   </iframe>
 </div>
