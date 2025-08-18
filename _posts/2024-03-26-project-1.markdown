@@ -72,7 +72,7 @@ description: >
     <li><strong>Publishing on Steam:</strong> Learning curve for storefront, trailers, and basic marketing.</li>
     <li><strong>Key Lesson:</strong> The importance of modular systems to scale content post-launch.</li>
   </div>
-video: https://www.youtube.com/embed/FiTVCjVHkSc?  # Reemplaza con el ID de YouTube https://www.youtube.com/watch?v=n1YoRLnQR78
+video: https://www.youtube.com/embed/ez5u3ZZMBB0  # Reemplaza con el ID de YouTube https://www.youtube.com/watch?v=n1YoRLnQR78
 ---
 
 <div class="video-container">
