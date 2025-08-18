@@ -1,0 +1,85 @@
+---
+layout: default
+modal-id: 6
+name-project: Wrestling Cardboard Championship
+date: 2024-03-26
+img: cake.png
+alt: image-alt
+section: games
+project-date: March 2024
+client: Evil Geometry
+tech: Unity (C#) - Github - Blender - Adobe (Photoshop, Premier) - Steam SDK
+rol: Producer - Programmer - Game Design - Screenwriter - Social Media
+platform: PC (Windows) via Steam
+project-link: https://store.steampowered.com/app/1663320/Wrestling_Cardboard_Championship/
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">First title published on Steam, a chaotic party game where:</p>
+
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Up to four players control cardboard boxes that fight in a wrestling ring.</li>
+        <li>Multiple game modes: Classic tag team or handicap matches, 1 vs. 1 with the AI, and single-player story mode.</li>
+        <li>Physics-based gameplay means every move and hit can have different results.</li>
+        <li>Sets inspired by real-life wrestling venues such as Madison Square Garden, Tokyo Dome and Arena Mexico.</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">A project that defined my personal development methodology, overcoming technical and emotional challenges to achieve its launch. This project was created by a total of four people, including myself. We also collaborated with an audio production studio, Policrom, which was responsible for the soundtrack and all the game's sound. The game took four years to develop.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Gameplay Programming and Game Design:</strong>
+      <ul>
+        <li>Physics-based gameplay, where the 12 designed characters each have their own fighting styles, finishers, and combo systems.</li>
+        <li>AI for 1v1 or team-based combat, either in single-player or single-player modes.</li>
+        <li>Structure to define the statistics of each character and define their fighting style.</li>
+        <li>System to reproduce cinematics of the ring entrance for the 12 characters, altering the lights and screens for the stage, achieving a unique touch to each presentation in the different stages.</li>
+        <li>System for single player mode, cinematic and dialogue playback, as well as story progression.</li>
+        <li>Persistent save system for data, unlocked scenarios and characters, single-player mode progression</li>
+      </ul>
+    </li>
+    <li><strong>Design and Art:</strong>
+      <ul>
+        <li>Dynamic UI/UX: Menus with timely animations</li>
+        <li>3D modeling in Blender (characters, settings) and basic animations.</li>
+      </ul>
+    </li>
+    <li><strong>Production and Post-Launch:</strong>
+      <ul>
+        <li>QA management and community feedback (bug fixes, balance).</li>
+        <li>Additional content planning (new modes, skins).</li>
+        <li>Management with a three-person team and the Policrom audio production studio.</li>
+        <li>Planning and executing a marketing plan for social media, virtual, and in-person events.</li>
+        <li>Learning how to use the Steam SDK, preparing the storefront and content.</li>
+      </ul>
+    </li>
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Selection at the EVA Play 2023 in Argentina, virtually.</li>
+        <li>Selection at Gamescom 2023 in Germany, virtually.</li>
+        <li>Selection at Gamescom LATAM 2024 in Brasil, virtually.</li>
+        <li>MES Festival selection on Steam, a virtual festival promoting Mexican video games, 2024, 2025.</li>
+        <li>Participation in various in-person events in Mexico, Queretaverso 2022, Talent Land 2023, EGS 2023, FELU 2024.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Unpredictable Physics:</strong> Difficulty balancing the controlled chaos of combat.</li>
+    <li><strong>Publishing on Steam:</strong> Learning curve for storefront, trailers, and basic marketing.</li>
+    <li><strong>Key Lesson:</strong> The importance of modular systems to scale content post-launch.</li>
+  </div>
+video: https://www.youtube.com/embed/FiTVCjVHkSc?  # Reemplaza con el ID de YouTube https://www.youtube.com/watch?v=n1YoRLnQR78
+---
+
+<div class="video-container">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
