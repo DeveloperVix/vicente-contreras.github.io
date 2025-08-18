@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 1
 name-project: Wrestling Cardboard Championship
 date: 2024-03-26
 img: cake.png
