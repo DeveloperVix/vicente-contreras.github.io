@@ -9,34 +9,70 @@ section: games
 project-date: April 2019
 client: My indie video game studio
 tech: 
-rol: Entrepreneur - Director
+rol: Entrepreneur - Director - Lead Programmer - Social Media
 platform: 
-project-link:
+project-link: https://evilgeometry.com
 description: >
   <h4>About this project</h4>
-  <p class="text-justify">As part of an eight-person team, we explored the niche of erotic games for platforms like Nutaku. We developed a working prototype that combined clicker mechanics with dating sim elements, where the player interacted with characters through chats, dates, and a reward collection system (photos).</p>
+  <p class="text-justify">Third attempt at founding a studio in Morelia, consolidated after joining the LABEM incubator (2020). Evil Geometry was born as a collective of four developers, evolving into a label with:</p>
 
-  <p class="text-justify">Although the pitch was well received, we identified that the team needed more experience in live ops and monetization to scale the project. Despite this, the prototype demonstrated solid technical design and gameplay.</p>
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Focus on iterative prototypes: Use of game jams (Global Game Jam) and quick projects to define identity.</li>
+        <li>Validated business model: Training in marketing, finance, and legal topics thanks to LABEM, a business incubator in Morelia, Michoacan, Mexico.</li>
+        <li>Local recognition: Ranked among the incubator's top 15 projects, with investor interest.</li>
+   </ul>
+  </p>
+  <h4>Key games developed under this label:</h4>
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Anima Path (cultural game).</li>
+        <li>Mishi-P (fast-paced shooter).</li>
+        <li>Payns' Redemption Crusade (hack and slash, prototype).</li>
+        <li>Itollani (soulslike, prototype).</li>
+        <li>Wrestling Cardboard Championship (party game on Steam).</li>
+   </ul>
+  </p>
 
   <div class="left-aligned-content">
   <h4>Key Contributions</h4>
   <ul class="styled-list">
-    <li><strong>Gameplay Programming:</strong>
+    <li><strong>Leadership and Production:</strong>
       <ul>
-        <li>Implementation of clicker mechanics with power-ups to optimize interactions.</li>
-        <li>Tinder-inspired dating system, with progression based on three encounters per character.</li>
-        <li>Use of Scriptable Objects to manage character data and player progress, ensuring scalability.</li>
+        <li>Management of multidisciplinary teams (up to 12 people).</li>
+        <li>Successful pitch to potential investors (industry potential in Morelia).</li>
+        <li>Resilience to face various challenges and opportunities.</li>
       </ul>
     </li>
-    <li><strong>Optimization:</strong> Efficient and modular code, with an emphasis on performance for mobile devices.</li>
-    <li><strong>Team Management:</strong> Coordination of tasks and communication between artists, designers, and other programmers.</li>
+    <li><strong>Technical Development:</strong>
+      <ul>
+        <li>Core mechanics programming for all projects.</li>
+        <li>Modular system design for rapid pivots (e.g., Box Fight Tournament → WCC).</li>
+      </ul>
+    </li>
+    <li><strong>Indie Studio Strategy:</strong>
+      <ul>
+        <li>Marketing plans and funding search (grants, collaborations).</li>
+        <li>Adapting to the pandemic: transition to remote work and virtual testing.</li>
+      </ul>
+    </li>
   </ul>
 
   <h4>Challenges and Learnings</h4>
   <ul class="styled-list">
-    <li><strong>Visual Adaptability:</strong> Limitations in the art pipeline to avoid pixelation across multiple screen resolutions (a common problem on mobile).</li>
-    <li><strong>MVP Focus:</strong> Prioritizing a minimum viable product to quickly validate the concept.</li>
-    <li><strong>Key Lesson:</strong> The importance of mastering live ops and retention metrics in F2P games.</li>
+    <li><strong>Pandemic Pivot:</strong> Reinventing Box Fight Tournament as a WCC after tester feedback.</li>
+    <li><strong>Managing remote teams:</strong> Difficulty maintaining creative synergy online.</li>
+    <li><strong>Key Lesson:</strong> The importance of validating ideas early with real players, even in the conceptual phases.</li>
+  </div>
+
+  <h4>Achievements and Transition</h4>
+  <ul class="styled-list">
+    <li>Publication on Steam (Cardboard Wrestling Championship).</li>
+    <li>Recognition in incubator (top 15 projects).</li>
+    <li>Evolution to an indie label: In 2024, Evil Geometry operates as a personal brand for self-managed projects without creative limitations.</li>
+    <li>Participation in in-person events in Mexico: UNAM (Autonomous University of Mexico), Queretaverso 2022, Talent Land 2023, EGS 2023, FELU 2024</li>
+    <li>Participation in international events virtually: EVA Play 2023 Argentina, Gamescom 2023 in Germany, Gamescom LATAM 2024 in Brazil, MES Festival selection on Steam, 2024, 2025</li>
+    <li>Indie Studio of the Year 2022 Award, from Perifericos Esports, Spain.</li>
   </div>
 video: 
 ---
