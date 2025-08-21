@@ -3,7 +3,7 @@ layout: default
 modal-id: 6
 name-project: Evil Geometry
 date: 2019-04-01
-img: cabin.png
+img: evilgeometry.png
 alt: image-alt
 section: games
 project-date: April 2019

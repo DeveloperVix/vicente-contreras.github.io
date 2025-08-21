@@ -3,7 +3,7 @@ layout: default
 modal-id: 10
 name-project: Counting Vortexes
 date: 2017-08-30
-img: cabin.png
+img: vortex.png
 alt: image-alt
 section: games
 project-date: November 2017

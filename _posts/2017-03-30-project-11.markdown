@@ -3,7 +3,7 @@ layout: default
 modal-id: 11
 name-project: Proyect Invader
 date: 2017-03-30
-img: cabin.png
+img: invader.png
 alt: image-alt
 section: games
 project-date: March 2017

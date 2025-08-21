@@ -3,7 +3,7 @@ layout: default
 modal-id: 7
 name-project: Slider Hunter
 date: 2019-01-01
-img: cabin.png
+img: slider.png
 alt: image-alt
 section: games
 project-date: January 2019

@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 name-project: Wrestling Cardboard Championship
 date: 2024-03-26
-img: cake.png
+img: wcc-logo.png
 alt: image-alt
 section: games
 project-date: March 2024

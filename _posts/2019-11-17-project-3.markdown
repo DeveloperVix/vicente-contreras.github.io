@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 name-project: Payns' Redemption Cruzade
 date: 2019-11-17
-img: cabin.png
+img: payns.png
 alt: image-alt
 section: games
 project-date: November 2019

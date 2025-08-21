@@ -3,7 +3,7 @@ layout: default
 modal-id: 8
 name-project: Itollani
 date: 2018-04-14
-img: cabin.png
+img: itollani.png
 alt: image-alt
 section: games
 project-date: April 2014

@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 name-project: Anima Path
 date: 2020-02-14
-img: cake.png
+img: anima.png
 alt: image-alt
 section: games
 project-date: February 2020

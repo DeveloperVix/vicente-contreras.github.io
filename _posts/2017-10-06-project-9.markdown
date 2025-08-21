@@ -3,7 +3,7 @@ layout: default
 modal-id: 9
 name-project: Alien Station
 date: 2017-10-06
-img: cabin.png
+img: alien.png
 alt: image-alt
 section: games
 project-date: October 2017

@@ -3,7 +3,7 @@ layout: default
 modal-id: 5
 name-project: Waifuck
 date: 2019-06-27
-img: cabin.png
+img: waifu.png
 alt: image-alt
 section: games
 project-date: January 2019 to June 2019
