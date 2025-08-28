@@ -1,0 +1,64 @@
+---
+layout: default
+modal-id: 14
+name-project: AR Glasses for Cinemark
+date: 2016-10-27
+img: waifu.png
+alt: image-alt
+section: clients
+project-date: October 2016
+client: Cinemark - Freelancer
+tech: Unity (C#) - Vuforia - Cinemark promotional glass and content
+rol: Gameplay Programmer and Game Design
+platform: Mobile (AppStore & PlayStore) - Not available for now due to contract with the owner
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Augmented reality application developed for Cinemark</p>
+  
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Interact with special-edition physical cups using AR markers.</li>
+        <li>View exclusive videos and 3D models superimposed on the cup.</li>
+        <li>Immersive movie theater experience: Promote special content linked to movies.</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">Contracted project where an existing base was taken up for completion and publication.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming and Adaptation:</strong>
+      <ul>
+        <li>Vuforia integration for stable marker tracking on glasses (variable lighting).</li>
+        <li>Performance optimization for mobile devices (Android/iOS) with heavy multimedia resources (HD videos).</li>
+        <li>Bug fixes in the legacy codebase.</li>
+      </ul>
+    </li>
+    <li><strong>Cross-Platform Publishing:</strong>
+      <ul>
+        <li>Certificate and build management for the App Store and Google Play.</li>
+        <li>Testing on real devices (multiple device ranges and OS).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>AR technical limitations: Difficulty maintaining tracking in low-light environments (movie theaters).</li>
+    <li><strong>Working with legacy code: Adapting to pre-existing logic without documentation.</li>
+    <li><strong>Key lesson: The importance of optimizing assets (videos, 3D models) to avoid crashes on older devices.</li>
+  </div>
+video: https://drive.google.com/file/d/1-aOGx8gxFO8AkbsMGUK0GYwti5Lrf_zL/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
