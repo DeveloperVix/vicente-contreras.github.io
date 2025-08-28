@@ -1,0 +1,69 @@
+---
+layout: default
+modal-id: 15
+name-project: National Auditorium 25 Years (AR Experience for Exhibition)
+date: 2016-10-21
+img: cabin.png
+alt: image-alt
+section: clients
+project-date: October 2016
+client: Cinemark - Freelancer
+tech: Unity (C#) - Vuforia - Content provided by the National Auditorium
+rol: Programmer and Game Design
+platform: Mobile (AppStore & PlayStore) - Not available for now due to contract with the owner
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Augmented reality application created for the photography exhibition celebrating the 25th anniversary of the renovation of the National Auditorium (Mexico City). The experience enabled:</p>
+  
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Interact with physical photographs using AR scanning.</li>
+        <li>View overlayed multimedia content: historical videos, motion graphics, and additional galleries.</li>
+        <li>Immersive narrative: Each photo recounted iconic anecdotes and events from the venue.</li>
+   </ul>
+  </p>
+
+  <p class="text-justify">Developed from scratch to complement an in-person exhibition.</p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming</strong>
+      <ul>
+        <li>Implementation of image tracking (photos on walls) with Vuforia/ARCore.</li>
+        <li>Multimedia content management system (videos, motion graphics, galleries).</li>
+        <li>Intuitive interface for non-technical users (play buttons, content navigation).</li>
+      </ul>
+    </li>
+    <li><strong>Cross-Platform Optimization:</strong>
+      <ul>
+        <li>Builds for iOS and Android with OS-specific tweaks (e.g., ARKit on iOS, ARCore on Android).</li>
+        <li>QA testing on low- and high-end devices to ensure smoothness.</li>
+      </ul>
+    </li>
+    <li><strong>Release:</strong>
+      <ul>
+        <li>Uploaded to the App Store and Google Play (management of certificates, metadata, and camera permissions).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Content Complexity:</strong> Coordinating videos and graphics without overloading the application (more than 100 multimedia elements).</li>
+    <li><strong>Variable Environments:</strong> Lighting and exposure angles affected image tracking.</li>
+    <li><strong>Key Lesson:</strong> The need to preprocess assets (e.g., compress videos without losing readability).</li>
+  </div>
+video:
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>
