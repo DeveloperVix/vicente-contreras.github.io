@@ -1,0 +1,68 @@
+---
+layout: default
+modal-id: 16
+name-project: In Commemoration of 1917
+date: 2016-11-30
+img: cake.png
+alt: image-alt
+section: clients
+project-date: November 2016
+client: UNAM Museum of Constitutions - Freelancer
+tech: Unity (C#) - Vuforia - Content provided by UNAM
+rol: Programmer - Game Design - UX & UI
+platform: Mobile (AppStore & PlayStore) - Not available for now due to contract with the owner
+project-link:
+description: >
+  <h4>About this project</h4>
+  <p class="text-justify">Augmented reality application designed for a commemorative exhibition for the anniversary of the Mexican Constitution of 1917. The experience allowed:</p>
+  
+  <p class="text-justify">
+   <ul class="styled-list">
+        <li>Interact with photographs and physical markers in a specialized gallery.</li>
+        <li>Smooth interface animations for transitions between historical content.</li>
+        <li>Educational context: Each scanned item narrated key events from the Constitutionalist era.</li>
+   </ul>
+  </p>
+
+  <div class="left-aligned-content">
+  <h4>Key Contributions</h4>
+  <ul class="styled-list">
+    <li><strong>Programming and AR Integration:</strong>
+      <ul>
+        <li>Implementing image and marker tracking with Vuforia.</li>
+        <li>Playback of multimedia content, videos, animated graphics and high-resolution viewing.</li>
+        <li>Smooth interface animations for transitions between historical content.</li>
+      </ul>
+    </li>
+    <li><strong>UX/UI Design:</strong>
+      <ul>
+        <li>Intuitive interface with themed visual elements (e.g., vintage style inspired by historical documents).</li>
+        <li>Optimized user flows for quick access to multimedia content.</li>
+      </ul>
+    </li>
+    <li><strong>Cross-Platform Release:</strong>
+      <ul>
+        <li>Builds for iOS and Android with specific performance tweaks.</li>
+        <li>Camera and storage permissions management for both operating systems.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Challenges and Learnings</h4>
+  <ul class="styled-list">
+    <li><strong>Historical Accuracy:</strong> Coordination with historians to ensure content accuracy.</li>
+    <li><strong>Performance with heavy assets:</strong> High-resolution videos and complex graphics without compromising the AR experience.</li>
+    <li><strong>Key lesson:</strong> The importance of modularizing code for future content updates and assets optimization.</li>
+  </div>
+video: https://drive.google.com/file/d/1V5WKzxm6pjDhrwnoqKHTafQfzsvRaC-K/preview
+---
+
+<div class="embed-responsive" style="background: url('img/portfolio/{{ post.img }}') center/cover;">
+  <iframe 
+    src="{{ page.video }}" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    class="w-full h-full">
+  </iframe>
+</div>

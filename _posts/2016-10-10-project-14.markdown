@@ -9,7 +9,7 @@ section: clients
 project-date: October 2016
 client: Cinemark - Freelancer
 tech: Unity (C#) - Vuforia - Cinemark promotional glass and content
-rol: Gameplay Programmer and Game Design
+rol: Programmer and Game Design
 platform: Mobile (AppStore & PlayStore) - Not available for now due to contract with the owner
 project-link:
 description: >

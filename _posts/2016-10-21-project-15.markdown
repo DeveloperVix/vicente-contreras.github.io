@@ -7,7 +7,7 @@ img: cabin.png
 alt: image-alt
 section: clients
 project-date: October 2016
-client: Cinemark - Freelancer
+client: National Auditorium (Mexico City) - Freelancer
 tech: Unity (C#) - Vuforia - Content provided by the National Auditorium
 rol: Programmer and Game Design
 platform: Mobile (AppStore & PlayStore) - Not available for now due to contract with the owner
